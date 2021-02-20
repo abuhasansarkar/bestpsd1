@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*header-area css*/
+
+.header-area {
+    background-image: linear-gradient(to right, #963DE3, #5D28B8);
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header-manu-area {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.logo-area {
+    float: left;
+}
+
+.manu-area {
+    float: left;
+}
+
+.header-manu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header-manu ul li a {
+    text-decoration: none;
+    text-align: right;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.header-manu-area .sociel-area {
+    text-align: right;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.header-content-area {
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.left-content h1 {
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.left-content h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.header-content-area .left-content {
+    float: left;
+}
+
+.left-content .btn {
+    width: 150px;
+    margin-top: 50px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #000000;
+    padding: 5px 10px;
+}
+
+.left-content .btn .btn-img {
+    float: left;
+}
+
+.left-content .btn .btn-text a {
+    text-decoration: none;
+}
+
+.left-content .btn .btn-img img {
+    width: 40px;
+    height: 40px;
+}
+
+.header-content-area .img-area {
+    float: center;
+}
+
+
+/*header-area css*/
+
+
+/*box section*/
+
+.all-box {
+    overflow: hidden;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.all-box .box {
+    width: 26%;
+    margin: auto;
+    float: left;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 0 21px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.all-box .box img {
+    border: 2px solid;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+/*box section*/
+
+
+/*about our app*/
+
+.about-app .top-site {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-app .top-site h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.about-app .top-site .dividor {
+    width: 100px;
+    height: 3px;
+    background: #1FE6E9;
+    margin: auto;
+}
+
+.about-app {
+    overflow: hidden;
+}
+
+.about-app .left-site {
+    width: 60%;
+    float: left;
+}
+
+.about-app .left-site h2 {
+    font-size: 30px;
+    color: #0d0b0b;
+    margin-top: 50px;
+}
+
+.about-app .left-site p {
+    font-size: 20px;
+    line-height: 110%;
+}
+
+.about-app .btn {
+    width: 150px;
+    margin-top: 40px;
+    background: #98d5ea;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #000000;
+    padding: 5px 10px;
+}
+
+.about-app .btn .btn-img {
+    float: left;
+}
+
+.about-app .btn .btn-text a {
+    text-decoration: none;
+}
+
+.about-app .btn .btn-img img {
+    width: 40px;
+    height: 40px;
+}
+
+.about-app .right-site {
+    float: right;
+    margin-right: 70px;
+}
+
+
+/*about our app*/
+
+
+/*work area*/
+
+.main-work-sec {
+    margin-bottom: -5px;
+}
+
+.main-work-sec .work-top-site {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-work-sec .work-top-site h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.main-work-sec .work-top-site .dividor {
+    width: 100px;
+    height: 3px;
+    background: #1FE6E9;
+    margin: auto;
+}
+
+.main-work-sec {
+    overflow: hidden;
+}
+
+.work-top-site .left-site {
+    float: left;
+}
+
+.main-work-sec .left-site {
+    width: 40%;
+    margin: auto;
+    float: left;
+}
+
+.main-work-sec .left-site img {
+    margin-top: 80px;
+    margin-right: 30px;
+}
+
+.main-work-sec .right-site {
+    float: right;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.right-site .right-site-box {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    float: left;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+
+/*work area*/
+
+
+/*template feture area*/
+
+.template-area {
+    background: #e8e2e2;
+    padding: 100px 0;
+}
+
+.main-template-area .main-box {
+    margin-top: 50px;
+}
+
+.main-template-area .top-site {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-template-area .top-site h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.main-template-area .top-site .dividor {
+    width: 100px;
+    height: 3px;
+    background: #1FE6E9;
+    margin: auto;
+}
+
+.main-box {
+    overflow: hidden;
+}
+
+.main-box .template-box {
+    width: 28%;
+    margin: auto;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    margin: 10px;
+}
+
+.main-box .template-box .img-box {
+    border: 10px solid #E0D6D5;
+    border-radius: 50%;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin: 40px 35px;
+}
+
+.main-box .template-box .img-box img {
+    margin-top: 50px;
+}
+
+
+/*template feture area*/
+
+
+/*app screenshot area*/
+
+.app-screenshot-area {
+    margin: 100px 0;
+}
+
+.main-screenshot .top-site {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-screenshot .top-site h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.main-screenshot .top-site .dividor {
+    width: 100px;
+    height: 3px;
+    background: #1FE6E9;
+    margin: auto;
+}
+
+.all-screenshot-area {
+    overflow: hidden;
+}
+
+.all-screenshot-area {
+    margin-top: 50px;
+}
+
+.all-screenshot-area .img-box {
+    width: 24%;
+    height: auto;
+    float: left;
+    margin-right: 12px;
+    overflow: hidden;
+}
+
+
+/*app screenshot area*/
+
+
+/*asked question area */
+
+.main-question-area {
+    padding-bottom: 50px;
+}
+
+.main-question-area .top-site {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-question-area .top-site h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.main-question-area .top-site .dividor {
+    width: 100px;
+    height: 3px;
+    background: #1FE6E9;
+    margin: auto;
+}
+
+.asked-question-area {
+    background: #f3f3f3;
+}
+
+.main-question-area .main-question {
+    width: 60%;
+    margin: auto;
+}
+
+.main-question-area .main-question h5 {
+    font-size: 25px;
+    background: #f3f3f3;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-question-area .main-question p {
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+
+/*asked question area */
+
+
+/*app dowenload area */
+
+.app-dowenload-area {
+    background: #08DBEE;
+    padding-top: 20px;
+    color: #ffffff;
+    padding-bottom: -50px;
+}
+
+.app-dowenload-area .container {
+    overflow: hidden;
+}
+
+.app-dowenload-area .left-site {
+    float: left;
+    ;
+}
+
+.app-dowenload-area .right-site h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.app-dowenload-area .right-site {
+    width: 50%;
+    margin: auto;
+    float: right;
+    margin-top: 150px;
+}
+
+
+/*app dowenload area */
+
+
+/* latest blog area */
+
+.main-section .top-site {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-section .top-site h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+.main-section .top-site .dividor {
+    width: 100px;
+    height: 3px;
+    background: #1FE6E9;
+    margin: auto;
+}
+
+.main-section .bottom-sec {
+    overflow: hidden;
+    margin: 50px 0;
+}
+
+.bottom-sec .left-site {
+    float: left;
+    margin-right: 50px;
+}
+
+.bottom-sec .right-site h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.bottom-sec .right-site h6 {
+    color: orange;
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+.bottom-sec .right-site p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.bottom-sec .right-site a {
+    background: #822CCD;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+
+/* latest blog area */
